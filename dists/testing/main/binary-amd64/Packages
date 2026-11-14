@@ -66,17 +66,17 @@ Description: FosOS desktop branding and defaults
  and the cursor is DMZ-White.
 
 Package: fosos-welcome
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Depends: python3, python3-gi, gir1.2-gtk-3.0, firefox-esr, network-manager
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-welcome/fosos-welcome_0.1.0_all.deb
-Size: 3840
-SHA256: a049e3ff2e1f4a8290520c98832e456ebe9f02a4bb4fd8b431fb479041d9588f
-SHA1: 118f13ae2c0c28e0645dc9d41b985e91800f7530
-MD5sum: 9e48e912bba73e5a93d62cd0f13f265c
+Filename: pool/main/f/fosos-welcome/fosos-welcome_0.1.1_all.deb
+Size: 3858
+SHA256: 4b03dc3236a8d3e8f7dbb22b36b0ed0861a51ddc2b0c398544a6a89f1311a0e5
+SHA1: 214832df56f4a19e5e7ace3bab0a7b35591e86dc
+MD5sum: c778b4ad88ea51bc583b720cbfcf6fb1
 Description: FosOS first-login welcome
  Shows network status, opens the FosOS guide, and on an installed system
  offers to install updates. The live session can start the installer from here.

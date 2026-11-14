@@ -1,0 +1,5 @@
+dists/** -text
+pool/** -text
+*.gpg -text
+*.deb -text
+*.asc -text
