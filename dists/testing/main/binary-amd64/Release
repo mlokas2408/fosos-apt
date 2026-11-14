@@ -1,0 +1,6 @@
+Archive: testing
+Component: main
+Origin: FosOS
+Label: FosOS
+Architecture: amd64
+Description: FosOS packages waiting for promotion to stable

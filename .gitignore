@@ -1,0 +1,6 @@
+db/
+conf/
+*.secret
+private-keys-v1.d/
+secring.gpg
+trustdb.gpg

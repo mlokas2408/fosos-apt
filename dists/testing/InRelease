@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: FosOS
+Label: FosOS
+Suite: testing
+Codename: testing
+Date: Sat, 14 Nov 2026 21:44:37 UTC
+Architectures: amd64
+Components: main
+Description: FosOS packages waiting for promotion to stable
+MD5Sum:
+ 9f55b8f2749c7e93a76aa200f33ac336 3410 main/binary-amd64/Packages
+ 4352d14ebea3ab955d11d716a9ef7f4b 1554 main/binary-amd64/Packages.gz
+ 6165a1fbee9303ccdae855c26f616508 140 main/binary-amd64/Release
+SHA1:
+ a03d5c480d978719f6ff73d1cb433612cd070775 3410 main/binary-amd64/Packages
+ ca281e1aa918eb07ae3637ff6ae459ddf08ac2f2 1554 main/binary-amd64/Packages.gz
+ 5edfcf0a339a64cae9e235d83787fae6a4e550e2 140 main/binary-amd64/Release
+SHA256:
+ f7c5d4130316d584866fbd8e92dce6d49d4c2f2a8c49b06fc47d2283b293e649 3410 main/binary-amd64/Packages
+ c0bbcda1a7cb43ad5edcfcafb50c4e9426415cf850258b25ba08a99bb32cb8a4 1554 main/binary-amd64/Packages.gz
+ cd879816bedf0f4a19794d596b604b2f0ba8356b0db9a3d7aeffaad435537572 140 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCavjWRQAKCRBFxgUOyBde
+eocUAQDcenygHQ0ZmymmIx2YPfQ2eTbsdqCgZu4kfhh7MiMvRAEA688AxjxFKXAz
+0AIhLpQNbPhxRS5EIX0qGSsfzM8zTgw=
+=YYYH
+-----END PGP SIGNATURE-----

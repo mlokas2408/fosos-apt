@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: FosOS
+Label: FosOS
+Architecture: amd64
+Description: FosOS packages promoted after testing
