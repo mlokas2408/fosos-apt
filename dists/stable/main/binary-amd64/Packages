@@ -6,10 +6,10 @@ Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
 Filename: pool/main/f/fosos-archive-keyring/fosos-archive-keyring_0.1.0_all.deb
-Size: 1750
-SHA256: e7797efcce4cf8fc8120360dac2b1c7897c27cb2ef8f15ec4365677204a70faf
-SHA1: 8b2873df8771dd35ebd45c857bfc6590d84a458d
-MD5sum: 4388e714e11e2a439a41db88b8101481
+Size: 1756
+SHA256: abe584ebbe0dda7edbef39b375bcbd30c160f01c69676c44319ea767b377210c
+SHA1: 3170105f137340a8f3087c534e7d50539901f0ca
+MD5sum: 34fff55bbba0c6e3b44c9122c385d1af
 Description: FosOS archive signing key and APT source
  Installs the FosOS archive public key and a signed-by source entry for
  the stable suite. The archive signing private key is not part of this
@@ -24,30 +24,31 @@ Priority: optional
 Section: admin
 Filename: pool/main/f/fosos-cli/fosos-cli_0.1.0_all.deb
 Size: 1364
-SHA256: 61869af4492a6c6214b920a543fad8c77fc0469ed172e8156f6c3276f399a1c5
-SHA1: 06657ac6b84a09d3fb36a1fea27848014c3c4480
-MD5sum: 919e4732a8d4526ce7c1d968d157b52c
+SHA256: 1db784ba8b322fc785fcea20ca9c93d1abc36fd3625200be68749bef3e776850
+SHA1: 70b62a6f323f561444de44223a4964b1e43d2467
+MD5sum: 436d3eb51f721996f70e096a4c0bb5bd
 Description: fos command for common package actions
  Provides fos for updating, upgrading, installing, removing, and repairing
  packages. APT remains available for every other operation.
 
 Package: fosos-desktop
-Version: 1.2.0
+Version: 1.3.5
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pam, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, python3-xlib, openbox, xss-lock, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, fosos-theme
+Depends: python3, python3-gi, python3-gi-cairo, python3-pam, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, fosos-theme
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.2.0_all.deb
-Size: 59840
-SHA256: b4e17f77e508f4d49f58ef74cd53527612163174bdc876ef63e6fe08e16b363c
-SHA1: 0dfb46bcc86c9dcb627ed56951c539afa541008d
-MD5sum: e90ad38b887ea3a104d1105a27b48992
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.3.5_all.deb
+Size: 66700
+SHA256: 47a065cf813b397f7af1c59019f78ee119698c309f32356296795af8a35396e1
+SHA1: 326bc33727549ef550dd79c036247a7f6fbbfec3
+MD5sum: 9af8aacd3d0fd4d988e314346dfe3127
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
- notifications, lock screen and settings shell, running on the Openbox
- window manager. It is the default login session. A minimal FosOS Recovery
- session and text consoles are the fallback when the shell fails.
+ notifications, lock screen, LightDM greeter and settings shell, running
+ on the Openbox window manager. It is the default login session. A
+ minimal FosOS Recovery session and text consoles are the fallback when
+ the shell fails.
 
 Package: fosos-installer
 Version: 1.0.0
@@ -57,31 +58,32 @@ Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
 Filename: pool/main/f/fosos-installer/fosos-installer_1.0.0_all.deb
-Size: 110766
-SHA256: b83574b575789e871254d4a56fa6eba3cdfddebae335b94eb5ff8e7393c48391
-SHA1: e5a737b4f5eab0cbb49386809926fe8a26b1081b
-MD5sum: 7aae48943741cda44a966f9646102c76
+Size: 110762
+SHA256: c4d918df0749cad11841397ea3f5001a5126114d133ccf71f9300e82c66c2931
+SHA1: eaa938f8415ec6287cb73d7c53a39d298aeb65aa
+MD5sum: 01eade1fadc4f17786e1fb9a6a64b6fe
 Description: FosOS graphical installer
  Calamares configuration and branding for installing FosOS.
  Covers partitioning, optional disk encryption, locale, timezone,
  keyboard, and the account that will own the installed system.
 
 Package: fosos-theme
-Version: 0.4.0
+Version: 0.5.0
 Architecture: all
 Depends: greybird-gtk-theme, elementary-xfce-icon-theme, fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, lxpolkit
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.4.0_all.deb
-Size: 108260
-SHA256: c2f227f2048e2a46b4adfd25c28907140436d52ce410c94040f9fdcd3cca5dbe
-SHA1: c4a1ea81d343cf9ef25402d924ef21d1406fad0a
-MD5sum: 2d13469a2b4b2e2d0c54ec6614abadd1
+Filename: pool/main/f/fosos-theme/fosos-theme_0.5.0_all.deb
+Size: 126298
+SHA256: c48a29d2d3704ab379907ef911287034683dc78d9dbd5294720839b787c96700
+SHA1: c49f8d3d0161475d40fd233b18221b8fbae92fbb
+MD5sum: efe89559da1f96de64b4add194faf2a1
 Description: FosOS desktop branding and defaults
- Wallpaper, boot splash, login appearance, and greeter defaults.
- The greeter uses Greybird and elementary-xfce. FosOS Desktop uses its own
- GTK and icon themes. lxpolkit provides password prompts.
+ Wallpaper, Dawn Aperture logo, boot splash, and session defaults. The
+ FosOS LightDM greeter ships in fosos-desktop; Greybird and
+ elementary-xfce remain available as a fallback. FosOS Desktop uses its
+ own GTK and icon themes. lxpolkit provides password prompts.
 
 Package: fosos-welcome
 Version: 0.1.1
@@ -91,10 +93,10 @@ Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
 Filename: pool/main/f/fosos-welcome/fosos-welcome_0.1.1_all.deb
-Size: 3858
-SHA256: 4b03dc3236a8d3e8f7dbb22b36b0ed0861a51ddc2b0c398544a6a89f1311a0e5
-SHA1: 214832df56f4a19e5e7ace3bab0a7b35591e86dc
-MD5sum: c778b4ad88ea51bc583b720cbfcf6fb1
+Size: 3856
+SHA256: 03b2dfc5251d2be5cb41eb813c5690726ed688323075f7cc53e395d77268f277
+SHA1: 627dbd67be8c0597f737843f1a3f1ac1168b828b
+MD5sum: f4255279e1fd3cd89e56fd6152921b03
 Description: FosOS first-login welcome
  Shows network status, opens the FosOS guide, and on an installed system
  offers to install updates. The live session can start the installer from here.
