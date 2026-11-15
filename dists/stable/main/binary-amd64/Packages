@@ -31,18 +31,36 @@ Description: fos command for common package actions
  Provides fos for updating, upgrading, installing, removing, and repairing
  packages. APT remains available for every other operation.
 
+Package: fosos-desktop
+Version: 1.0.0
+Architecture: all
+Depends: python3, python3-gi, python3-gi-cairo, python3-pam, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, python3-xlib, openbox, xss-lock, brightnessctl, xfce4-settings, xfce4-terminal, thunar, network-manager, network-manager-gnome, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, fosos-theme
+Maintainer: FosOS <dev@fosos.local>
+Priority: optional
+Section: x11
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.0.0_all.deb
+Size: 55150
+SHA256: 8cb4c53979139ebd75f81eafce19f25ad6e1c26edd79400aca853427b5ce7fa3
+SHA1: 2636e5f7386354ab05698af08dd57ebbe6ee0962
+MD5sum: 9fc4b49ff82df4383655670f9ee78fac
+Description: FosOS Desktop session
+ The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
+ notifications, lock screen and settings shell, running on the Openbox
+ window manager. It is the default login session. XFCE remains installed
+ as the fallback on the login screen.
+
 Package: fosos-installer
-Version: 0.1.0
+Version: 1.0.0
 Architecture: all
 Depends: calamares, squashfs-tools, rsync, grub-efi-amd64-bin, grub2-common, grub-common, efibootmgr, cryptsetup, cryptsetup-initramfs, os-prober, pkexec, sudo, qt6-qpa-plugins, qt6-gtk-platformtheme, qt6-svg-plugins, x11-xserver-utils
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
-Filename: pool/main/f/fosos-installer/fosos-installer_0.1.0_all.deb
-Size: 110758
-SHA256: 3bb411e074b8a5813aa6cbf6bfe6f7c14bcab00c8bc8bf924fb90d972b768408
-SHA1: 92f68f2a1302341a5f7aa0240482d1adf3bcb2c8
-MD5sum: eff5860c3a3371a814fd9ddd23dbae41
+Filename: pool/main/f/fosos-installer/fosos-installer_1.0.0_all.deb
+Size: 110766
+SHA256: b83574b575789e871254d4a56fa6eba3cdfddebae335b94eb5ff8e7393c48391
+SHA1: e5a737b4f5eab0cbb49386809926fe8a26b1081b
+MD5sum: 7aae48943741cda44a966f9646102c76
 Description: FosOS graphical installer
  Calamares configuration and branding for installing FosOS.
  Covers partitioning, optional disk encryption, locale, timezone,
