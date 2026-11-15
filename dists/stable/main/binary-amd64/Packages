@@ -32,22 +32,22 @@ Description: fos command for common package actions
  packages. APT remains available for every other operation.
 
 Package: fosos-desktop
-Version: 1.0.0
+Version: 1.2.0
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pam, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, python3-xlib, openbox, xss-lock, brightnessctl, xfce4-settings, xfce4-terminal, thunar, network-manager, network-manager-gnome, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, fosos-theme
+Depends: python3, python3-gi, python3-gi-cairo, python3-pam, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, python3-xlib, openbox, xss-lock, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, fosos-theme
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.0.0_all.deb
-Size: 55150
-SHA256: 8cb4c53979139ebd75f81eafce19f25ad6e1c26edd79400aca853427b5ce7fa3
-SHA1: 2636e5f7386354ab05698af08dd57ebbe6ee0962
-MD5sum: 9fc4b49ff82df4383655670f9ee78fac
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.2.0_all.deb
+Size: 59840
+SHA256: b4e17f77e508f4d49f58ef74cd53527612163174bdc876ef63e6fe08e16b363c
+SHA1: 0dfb46bcc86c9dcb627ed56951c539afa541008d
+MD5sum: e90ad38b887ea3a104d1105a27b48992
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  notifications, lock screen and settings shell, running on the Openbox
- window manager. It is the default login session. XFCE remains installed
- as the fallback on the login screen.
+ window manager. It is the default login session. A minimal FosOS Recovery
+ session and text consoles are the fallback when the shell fails.
 
 Package: fosos-installer
 Version: 1.0.0
@@ -67,21 +67,21 @@ Description: FosOS graphical installer
  keyboard, and the account that will own the installed system.
 
 Package: fosos-theme
-Version: 0.1.0
+Version: 0.4.0
 Architecture: all
-Depends: greybird-gtk-theme, elementary-xfce-icon-theme, fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, xfce4-power-manager, xfce4-settings, xfdesktop4
+Depends: greybird-gtk-theme, elementary-xfce-icon-theme, fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, lxpolkit
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.1.0_all.deb
-Size: 109834
-SHA256: d1aed9bcbea78cd26e8da2b07625bb2bd138095fc92abe3807ac51e8cfd12ff4
-SHA1: 53eea62a2df80dc245bcbf1c914c291b18388360
-MD5sum: d6cd491693a56f46ceab58679d01daec
+Filename: pool/main/f/fosos-theme/fosos-theme_0.4.0_all.deb
+Size: 108260
+SHA256: c2f227f2048e2a46b4adfd25c28907140436d52ce410c94040f9fdcd3cca5dbe
+SHA1: c4a1ea81d343cf9ef25402d924ef21d1406fad0a
+MD5sum: 2d13469a2b4b2e2d0c54ec6614abadd1
 Description: FosOS desktop branding and defaults
- Wallpaper, boot splash, login appearance, and XFCE defaults.
- The GTK theme is Greybird, the icon theme is elementary-xfce,
- and the cursor is DMZ-White.
+ Wallpaper, boot splash, login appearance, and greeter defaults.
+ The greeter uses Greybird and elementary-xfce. FosOS Desktop uses its own
+ GTK and icon themes. lxpolkit provides password prompts.
 
 Package: fosos-welcome
 Version: 0.1.1
