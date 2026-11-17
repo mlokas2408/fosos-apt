@@ -5,7 +5,7 @@ Origin: FosOS
 Label: FosOS
 Suite: testing
 Codename: testing
-Date: Tue, 17 Nov 2026 18:09:22 UTC
+Date: Tue, 17 Nov 2026 18:10:50 UTC
 Architectures: amd64
 Components: main
 Description: FosOS packages waiting for promotion to stable
@@ -23,8 +23,8 @@ SHA256:
  cd879816bedf0f4a19794d596b604b2f0ba8356b0db9a3d7aeffaad435537572 140 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCavyYUgAKCRBFxgUOyBde
-eoS9AQD94TB1h+btU+FlzyVG1Xi62uagV1A0IuFVJecjvOMSJwEAr6JMzSk4xxYg
-lo+3QURFQ0PV2064uYZ9w/meA7Wg4AI=
-=5MvP
+iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCavyYqgAKCRBFxgUOyBde
+ev4xAP0fR/bQ5qp1fLp1joBZxbc2fwqjSeFJmlpuoR+Lw9SHYQD+JKjSHmloatQT
+84W2WO81qJ/YN4AHaNt9QBXf2NICowE=
+=TW3y
 -----END PGP SIGNATURE-----
