@@ -32,18 +32,18 @@ Description: fos command for common package actions
  packages. APT remains available for every other operation.
 
 Package: fosos-desktop
-Version: 1.11.0
+Version: 1.12.0
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, gvfs, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme
-Recommends: freerdp3-x11, xrdp, xorgxrdp
+Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, gvfs, wireplumber, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme
+Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.11.0_all.deb
-Size: 128306
-SHA256: dce69d58c882edd4bf7492551faefdab7e8e0efc6f93cc507d4f180589b2f024
-SHA1: ab3a79e3f577b1b305a087714d54a2a5aea022a0
-MD5sum: e0468ed9d87b343b897c002a30f93764
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.12.0_all.deb
+Size: 128576
+SHA256: a67f080ade0f59e6e9db86bfdcc2bf906fea9ce0b99373977c248c919973810e
+SHA1: 944ded1151273be5cb22c06143add65ea13db2a5
+MD5sum: 99d2eed134c666f9bc1391b80a19f947
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
