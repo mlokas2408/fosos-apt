@@ -32,18 +32,18 @@ Description: fos command for common package actions
  packages. APT remains available for every other operation.
 
 Package: fosos-desktop
-Version: 1.6.1
+Version: 1.11.0
 Architecture: all
 Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, gvfs, wireplumber, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme
 Recommends: freerdp3-x11, xrdp, xorgxrdp
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.6.1_all.deb
-Size: 115954
-SHA256: 07797b9d90f1793fcacc48004cfa81c76755c13095bec45bc19684e577652daf
-SHA1: 8937401f8f1f1b6de021dd79decd593c061d5336
-MD5sum: 44b2aaa234ecc87201dabeab2a798b86
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.11.0_all.deb
+Size: 128306
+SHA256: dce69d58c882edd4bf7492551faefdab7e8e0efc6f93cc507d4f180589b2f024
+SHA1: ab3a79e3f577b1b305a087714d54a2a5aea022a0
+MD5sum: e0468ed9d87b343b897c002a30f93764
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
@@ -53,17 +53,17 @@ Description: FosOS Desktop session
  Desktop session (any local user); enable it from Settings → Remote Desktop.
 
 Package: fosos-installer
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Depends: calamares, squashfs-tools, rsync, grub-efi-amd64-bin, grub2-common, grub-common, efibootmgr, cryptsetup, cryptsetup-initramfs, dosfstools, os-prober, pkexec, sudo, qt6-qpa-plugins, qt6-gtk-platformtheme, qt6-svg-plugins, x11-xserver-utils
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
-Filename: pool/main/f/fosos-installer/fosos-installer_1.0.1_all.deb
-Size: 113734
-SHA256: b89e86fd89e4a7bc7659468afb7217b5467dcc91ca07a38f79df1f8540cd3082
-SHA1: 48d51eea84fb52d41ec1cb64f065caeeaa987514
-MD5sum: 9865ea7bafbe02d24a537397fb422369
+Filename: pool/main/f/fosos-installer/fosos-installer_1.0.2_all.deb
+Size: 114288
+SHA256: 69124f3b106c715594db3a92ef0a716e31d2b278a141e1d994a02ffe166349c0
+SHA1: a9f739d3f37310f6ec5484602df8e4d7a8b911fc
+MD5sum: 1b9927519f6322fec62461bbbf654513
 Description: FosOS graphical installer
  Calamares configuration and branding for installing FosOS.
  Covers partitioning, optional disk encryption, locale, timezone,

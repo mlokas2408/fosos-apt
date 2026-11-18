@@ -5,7 +5,7 @@ Origin: FosOS
 Label: FosOS
 Suite: stable
 Codename: stable
-Date: Tue, 17 Nov 2026 18:10:50 UTC
+Date: Wed, 18 Nov 2026 13:46:21 UTC
 Architectures: amd64
 Components: main
 Description: FosOS packages promoted after testing
@@ -23,8 +23,8 @@ SHA256:
  76ce0b10aec175c8f261d006c87079d476f8283915a4480c9d3381e8ed050767 130 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCavyYqgAKCRBFxgUOyBde
-eo1FAP91Ke3Q8oJNDneWK5DHIQW7DnltNffDwMtI6U/PIEIelgD/ZwLlARBFVU1O
-bTpr411heQ+Ugm6I/01da1IXB0bt0Q8=
-=SvNA
+iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCav2sLQAKCRBFxgUOyBde
+et9VAQDP6t9OULQEVb/11qygHPuGNEshkztU+clL9ReyEKwbQQD/e859kG7/AuRU
+JTtAuEQcIQxuWMOxcOMT77DUwKOzHAI=
+=RwRb
 -----END PGP SIGNATURE-----
