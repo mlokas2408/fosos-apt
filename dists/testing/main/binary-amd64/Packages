@@ -43,10 +43,10 @@ Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
 Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.10_all.deb
-Size: 134140
-SHA256: 392fa9598cced9c8abf3db3586a3f5b20079ec017cb830ff9697d6754fde9f89
-SHA1: 5d362d5d453777148e6b47dfce0011cd4316869f
-MD5sum: fc02941c577b752c23f143274b54e596
+Size: 134366
+SHA256: 182993010b7eb4af27a83d91cebab53527e4cf1e485639be0ff7c2099192c842
+SHA1: 85ecb20584fd80f29f980128b1067e762132e9ed
+MD5sum: 0fe5e37ee6f4d3cc4639dc2071fbaa98
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
