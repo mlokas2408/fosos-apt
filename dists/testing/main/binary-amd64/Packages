@@ -16,20 +16,23 @@ Description: FosOS archive signing key and APT source
  package.
 
 Package: fosos-cli
-Version: 0.1.0
+Version: 0.2.1
 Architecture: all
 Depends: apt, sudo
+Recommends: polkitd
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
-Filename: pool/main/f/fosos-cli/fosos-cli_0.1.0_all.deb
-Size: 1364
-SHA256: 1db784ba8b322fc785fcea20ca9c93d1abc36fd3625200be68749bef3e776850
-SHA1: 70b62a6f323f561444de44223a4964b1e43d2467
-MD5sum: 436d3eb51f721996f70e096a4c0bb5bd
-Description: fos command for common package actions
+Filename: pool/main/f/fosos-cli/fosos-cli_0.2.1_all.deb
+Size: 1848
+SHA256: 80c9bb8ca274efd543629bfae2728915c2f0edcbc8af8fd647e591465842e1ad
+SHA1: 6c04d9a1ebc254238333bfd7b52e0033a0cc64b1
+MD5sum: c54e51f1ce921774be16afa0a185a4db
+Description: fos command and passwordless admin for sudo users
  Provides fos for updating, upgrading, installing, removing, and repairing
- packages. APT remains available for every other operation.
+ packages. APT remains available for every other operation. Members of the
+ sudo group may use sudo and polkit (pkexec) without a password when polkitd
+ is installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
 Version: 1.13.1
