@@ -75,22 +75,23 @@ Description: FosOS graphical installer
  (/run/live/medium) even when live-boot mounted the USB elsewhere.
 
 Package: fosos-theme
-Version: 0.6.0
+Version: 0.6.1
 Architecture: all
 Depends: fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, lxpolkit
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.6.0_all.deb
-Size: 126276
-SHA256: f20174a95e9664846c72acc4cea5fcc88d41aed5e42e6bf8f1a288d0bc0738ca
-SHA1: 4642683bcf3611b1d5936c6e4959bcab14500595
-MD5sum: 67eaa325ef976724ce3ae24ee767718c
+Filename: pool/main/f/fosos-theme/fosos-theme_0.6.1_all.deb
+Size: 126424
+SHA256: cde967a97d579ce670f424480f97857be5bcb077c084adb5ca3be4c3ee1c1095
+SHA1: e55c36c912bf142f4a95f91bdac79422b451d4cb
+MD5sum: 619baae5835a29ab1bc48716cb8ddb57
 Description: FosOS desktop branding and defaults
- Wallpaper, Dawn Aperture logo, boot splash, and session defaults. The
- FosOS LightDM greeter and desktop GTK/icon themes ship in fosos-desktop
- (Adwaita icons as fallback). lxpolkit provides password prompts.
- Greybird and elementary-xfce are no longer pulled into the image.
+ Wallpaper, Dawn Aperture logo, boot splash, session defaults, and
+ touchpad tap-to-click via libinput. The FosOS LightDM greeter and desktop
+ GTK/icon themes ship in fosos-desktop (Adwaita icons as fallback).
+ lxpolkit provides password prompts. Greybird and elementary-xfce are no
+ longer pulled into the image.
 
 Package: fosos-welcome
 Version: 0.1.2
