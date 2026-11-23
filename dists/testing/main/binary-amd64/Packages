@@ -16,18 +16,18 @@ Description: FosOS archive signing key and APT source
  package.
 
 Package: fosos-cli
-Version: 0.2.1
+Version: 0.2.4
 Architecture: all
 Depends: apt, sudo
 Recommends: polkitd
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
-Filename: pool/main/f/fosos-cli/fosos-cli_0.2.1_all.deb
-Size: 1848
-SHA256: 80c9bb8ca274efd543629bfae2728915c2f0edcbc8af8fd647e591465842e1ad
-SHA1: 6c04d9a1ebc254238333bfd7b52e0033a0cc64b1
-MD5sum: c54e51f1ce921774be16afa0a185a4db
+Filename: pool/main/f/fosos-cli/fosos-cli_0.2.4_all.deb
+Size: 2140
+SHA256: fb49a43b7145dd5e99f2280ebc9349f9ca800b80a78b55b70eaa1daf6aac74a8
+SHA1: a31497cd8bb42c8128da48e050697266d04211c0
+MD5sum: 3b6767d0313a0ce9ceff0e3eb2e4f1a6
 Description: fos command and passwordless admin for sudo users
  Provides fos for updating, upgrading, installing, removing, and repairing
  packages. APT remains available for every other operation. Members of the
@@ -35,18 +35,18 @@ Description: fos command and passwordless admin for sudo users
  is installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.8
+Version: 1.13.9
 Architecture: all
 Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, gvfs, wireplumber, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.8_all.deb
-Size: 133850
-SHA256: 43775d2521750da3ffd836519a41ede87880e3c36659fc9f988d63d82aac0662
-SHA1: acd10bd1cecbdb7a7067f300baa2aeb99d7d1010
-MD5sum: 1186c051f04363f66211ed3d61d0d80a
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.9_all.deb
+Size: 134064
+SHA256: a381a313b69c01da6f9ad1fd71f2cb3a80ad2bceb95c2c41840537669045ff2c
+SHA1: b866358551407be1a4d99abfba7ce9113eaae8c5
+MD5sum: 1d0ed3f54acfab668d67319dad6cb322
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
