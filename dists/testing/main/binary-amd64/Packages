@@ -35,18 +35,18 @@ Description: fos command and passwordless admin for sudo users
  is installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.11
+Version: 1.13.13
 Architecture: all
 Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, gvfs, wireplumber, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.11_all.deb
-Size: 134356
-SHA256: 07c04d135619467d5d258b8dc1c457b697c490cd0caa5530b28a0310d9031529
-SHA1: 9a84bc77a62fcd01115943bd8efb0c1d452f2924
-MD5sum: e717f93f27db2a8c35b282eae9dc0111
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.13_all.deb
+Size: 134650
+SHA256: 9516c796175acbdc2d16e75ebd3e11bfc3212f5107d0de9fb56be6d882d062ef
+SHA1: e3182ad93889062b5f02e5d28ec5504c540cfd9b
+MD5sum: da85ebfd97a7be27c459791b0dd37a3c
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
@@ -75,17 +75,17 @@ Description: FosOS graphical installer
  (/run/live/medium) even when live-boot mounted the USB elsewhere.
 
 Package: fosos-theme
-Version: 0.6.1
+Version: 0.6.2
 Architecture: all
 Depends: fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, lxpolkit
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.6.1_all.deb
-Size: 126424
-SHA256: cde967a97d579ce670f424480f97857be5bcb077c084adb5ca3be4c3ee1c1095
-SHA1: e55c36c912bf142f4a95f91bdac79422b451d4cb
-MD5sum: 619baae5835a29ab1bc48716cb8ddb57
+Filename: pool/main/f/fosos-theme/fosos-theme_0.6.2_all.deb
+Size: 39206
+SHA256: 7c7f595127c4568ced1a1030dab1595b65f8aa8e1857e65198357b10b1dc1108
+SHA1: 2d9d7077e40bc207a3aef33fc7bcfac6d80ad010
+MD5sum: cc731dba08b05ed8acbf839d5cfce66e
 Description: FosOS desktop branding and defaults
  Wallpaper, Dawn Aperture logo, boot splash, session defaults, and
  touchpad tap-to-click via libinput. The FosOS LightDM greeter and desktop
