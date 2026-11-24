@@ -36,18 +36,18 @@ Description: fos command and passwordless admin for sudo users
  installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.22
+Version: 1.13.23
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, fosos-theme, fosos-cli
+Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, xdg-user-dirs, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.22_all.deb
-Size: 159506
-SHA256: a0d1a522d049116fb303ef9f5d7be4de9b3adb62ebf5702eeab9ec6831c69df0
-SHA1: 468669df48173c5df67351fd1bbcb4835f327680
-MD5sum: 34aef692bcd43c7e2112829c2737b0b6
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.23_all.deb
+Size: 174926
+SHA256: d79847908d229d2eb1dca71860413eaebf37bc9e2282d2cd195bda81347997f2
+SHA1: 1a1fb162d7e7979110d286c55566ee72947a4590
+MD5sum: 6406acb82c9dfc36fabfe6f183fd1037
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Remote Desktop client, notifications, lock screen, LightDM greeter and
