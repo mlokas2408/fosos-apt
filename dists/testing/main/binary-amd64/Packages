@@ -57,17 +57,17 @@ Description: FosOS Desktop session
  Desktop session (any local user); enable it from Settings → Remote Desktop.
 
 Package: fosos-installer
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Depends: calamares, squashfs-tools, rsync, grub-efi-amd64, grub-efi-amd64-bin, grub-efi-amd64-signed, shim-signed, mokutil, grub2-common, grub-common, efibootmgr, cryptsetup, cryptsetup-initramfs, dosfstools, os-prober, pkexec, sudo, qt6-qpa-plugins, qt6-gtk-platformtheme, qt6-svg-plugins, x11-xserver-utils
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: admin
-Filename: pool/main/f/fosos-installer/fosos-installer_1.0.4_all.deb
-Size: 1035280
-SHA256: 4f9252c8ce2e14d823fd0e6428a10fa8083b3d83f4093a7141b31819c05732d8
-SHA1: c0f9ea7b5be9df52d7c7424788dd32e667abb7b2
-MD5sum: 1408d6468269b0ff7d0cc29f55f8ab78
+Filename: pool/main/f/fosos-installer/fosos-installer_1.0.5_all.deb
+Size: 117182
+SHA256: 0b88d24ff7fd781c34ed5cfb3da5c9512570d557a64d2e1e8f34b55bd1cc7105
+SHA1: 662f9528693c3f75600164d50459eb856560cd95
+MD5sum: 1d2c4d6b9958600acde973ccb12469ed
 Description: FosOS graphical installer
  Calamares configuration and branding for installing FosOS.
  Covers partitioning, optional disk encryption, locale, timezone,
@@ -77,18 +77,18 @@ Description: FosOS graphical installer
  Installs Debian-signed shim/GRUB so the target can boot with Secure Boot.
 
 Package: fosos-theme
-Version: 0.7.3
+Version: 0.7.4
 Architecture: all
 Depends: fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, plymouth-label, lxpolkit
 Recommends: plymouth-themes
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.7.3_all.deb
-Size: 788964
-SHA256: adc4550c34034913a70e2ef11827e6783c69e369545e2f2ac814c1b73d104510
-SHA1: 3af5c2f177941356c573acd6bde18df28a4360a3
-MD5sum: 1409e5c56c5ec8c8979f767dd66b1e12
+Filename: pool/main/f/fosos-theme/fosos-theme_0.7.4_all.deb
+Size: 789264
+SHA256: ac9627003ac5c49c5ef9cac071874e25ce190e0b8db922852fb05a0ec3e9a73a
+SHA1: dbf7ef38b2b3424accb189e22957979b47c05c91
+MD5sum: f913ee2904acb24c2be6ca90e65698bf
 Description: FosOS desktop branding and defaults
  Wallpaper, Dawn Aperture logo, quiet GRUB theme, graphical Plymouth
  splash (logo + spinner), session defaults, and touchpad tap-to-click.
