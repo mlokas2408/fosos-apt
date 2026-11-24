@@ -77,18 +77,18 @@ Description: FosOS graphical installer
  Installs Debian-signed shim/GRUB so the target can boot with Secure Boot.
 
 Package: fosos-theme
-Version: 0.7.7
+Version: 0.7.8
 Architecture: all
 Depends: fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, plymouth-label, lxpolkit
 Recommends: plymouth-themes
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.7.7_all.deb
-Size: 810566
-SHA256: 3f2e52b75fbfb93c95d44e519859bd2c97d47541ec722aa223f40a6f8aa3e6e0
-SHA1: a2f9a52879c5e5d1ab72e9f39f1b76887b079b4e
-MD5sum: 316d97a08aeda3ff2774d20380257aed
+Filename: pool/main/f/fosos-theme/fosos-theme_0.7.8_all.deb
+Size: 807030
+SHA256: 6cf8d179b8a3b7d5cf6555086e9b18f1e3fdb4be43e68a936250aff5c9a11d5b
+SHA1: 387a769a5ce40a0223302605ec808dc487f24534
+MD5sum: 6785a2614e55bb3af3fb15623f9c84d6
 Description: FosOS desktop branding and defaults
  Wallpaper, Dawn Aperture logo, quiet GRUB theme, graphical Plymouth
  splash (logo + spinner), session defaults, and touchpad tap-to-click.
