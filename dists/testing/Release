@@ -2,19 +2,19 @@ Origin: FosOS
 Label: FosOS
 Suite: testing
 Codename: testing
-Date: Tue, 24 Nov 2026 20:44:11 UTC
+Date: Tue, 24 Nov 2026 21:45:16 UTC
 Architectures: amd64
 Components: main
 Description: FosOS packages waiting for promotion to stable
 MD5Sum:
- 3fa26f58f24dfd5498a2d73ed3d05a6b 5606 main/binary-amd64/Packages
- 196d73ddc7d811c5f3f7d6fa16297213 2544 main/binary-amd64/Packages.gz
+ d24c4beabf1b91b1f748eca6187d4d96 5620 main/binary-amd64/Packages
+ 37f6107a20df7dead86aae3c581cf564 2552 main/binary-amd64/Packages.gz
  6165a1fbee9303ccdae855c26f616508 140 main/binary-amd64/Release
 SHA1:
- 338fd81b3fd775df9e0b41d8bb42ad5bb44fb266 5606 main/binary-amd64/Packages
- 8962cc38ea3226314ae27dcf1ddb49fa01b21e50 2544 main/binary-amd64/Packages.gz
+ 25811811a13c9c80a68e4d6fced82d16a7970e5c 5620 main/binary-amd64/Packages
+ 951857bdc08eb45a366d68f86997b38573b3864b 2552 main/binary-amd64/Packages.gz
  5edfcf0a339a64cae9e235d83787fae6a4e550e2 140 main/binary-amd64/Release
 SHA256:
- d894e87a159a042a143c8cf1301f2612ae83bd69579b973b025105f35a980634 5606 main/binary-amd64/Packages
- 07454f22c6f6411e0212cf68671392b5e265fd32119b01526c9bf43044c857bd 2544 main/binary-amd64/Packages.gz
+ e7ebd07ddd32b62fc1f64f580b2600454f9ef0f715ca466f3e508dfc43db9633 5620 main/binary-amd64/Packages
+ c53d1d103b2f62179316f79863e72226fb23dcf5f217f0b7982b1e62ac27d25d 2552 main/binary-amd64/Packages.gz
  cd879816bedf0f4a19794d596b604b2f0ba8356b0db9a3d7aeffaad435537572 140 main/binary-amd64/Release
