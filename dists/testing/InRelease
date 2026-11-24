@@ -5,26 +5,26 @@ Origin: FosOS
 Label: FosOS
 Suite: testing
 Codename: testing
-Date: Tue, 24 Nov 2026 10:19:28 UTC
+Date: Tue, 24 Nov 2026 10:27:11 UTC
 Architectures: amd64
 Components: main
 Description: FosOS packages waiting for promotion to stable
 MD5Sum:
- ee4c3c2d7cf7312aa280764852a194ce 5590 main/binary-amd64/Packages
- 6035516549caa5a51a879fca32c70536 2538 main/binary-amd64/Packages.gz
+ 17ea159cf9440a5deb6e302be16f069a 5590 main/binary-amd64/Packages
+ 0e7a5e73c60b20e7928a355403e46fdc 2535 main/binary-amd64/Packages.gz
  6165a1fbee9303ccdae855c26f616508 140 main/binary-amd64/Release
 SHA1:
- 5d95ebb8e8c94f9b61bb75f48d3966d3bd6603a7 5590 main/binary-amd64/Packages
- fb04ca11c143cd020ff57a798b0e7c2244bb652f 2538 main/binary-amd64/Packages.gz
+ 14a05d4f023c263dd62d48b73140a2e5f1a27f1b 5590 main/binary-amd64/Packages
+ 0ca648f38ae64ad0d828f21a6fd86647658ad570 2535 main/binary-amd64/Packages.gz
  5edfcf0a339a64cae9e235d83787fae6a4e550e2 140 main/binary-amd64/Release
 SHA256:
- 86c52ccc749ad11e8a8823dbb7857f4dc11a6e1f0f1e2fd5be8357d31abc52fa 5590 main/binary-amd64/Packages
- 14526c5957e60c31d9017cbb3e4ec2e22085e7068706476014cf7f12b6cd4bcb 2538 main/binary-amd64/Packages.gz
+ 24704f5e412f6716b0ae83243bdf831beb4ea00cf5ff8e476568e7f119a4f51a 5590 main/binary-amd64/Packages
+ 943f5f219ac773461cdf75f8c9d26c31c8ad8030f9c964abb2f4773f21754d2f 2535 main/binary-amd64/Packages.gz
  cd879816bedf0f4a19794d596b604b2f0ba8356b0db9a3d7aeffaad435537572 140 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCawVksAAKCRBFxgUOyBde
-ehL9AQC779sZfd956uJBI3+IOHued3/ik9L2bsfUJUE5OH7eqAEAlVYawOL1SYLO
-0btaD08UKCQNK8LKbJTUBThtdj6DbQo=
-=Toal
+iHUEARYKAB0WIQRqCkjM/0dvlBWdXsRFxgUOyBdeegUCawVmfwAKCRBFxgUOyBde
+ekfJAP0cTdzl+4dzX/P2TiGbMQt2L4rqU8WiJZqCOQM0xPMWZwD/cGmpz2b+FasG
+5La3o8F/YjQonewPsw4LCL9NK10uow8=
+=c1ZT
 -----END PGP SIGNATURE-----
