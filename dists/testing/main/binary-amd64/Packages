@@ -36,20 +36,20 @@ Description: fos command and passwordless admin for sudo users
  installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.29
+Version: 1.13.30
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, gir1.2-appstream-1.0, appstream, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, onedrive, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, ufw, openssh-client, openssh-server, xdg-user-dirs, fosos-theme, fosos-cli
+Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, gir1.2-appstream-1.0, appstream, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, onedrive, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, python3-gst-1.0, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-gtk3, v4l-utils, pipewire-v4l2, cups, cups-client, cups-bsd, cups-filters, cups-browsed, ipp-usb, avahi-daemon, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, ufw, openssh-client, openssh-server, xdg-user-dirs, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.29_all.deb
-Size: 267566
-SHA256: 8975909771d714415834c159030a90bbefc3f2d44c4c0eec35d94082604aef92
-SHA1: d2b133a979f940552ce2e5072701ca7ba5351fa5
-MD5sum: ffd07da1d9d20f9dac8cd143cdd2b373
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.30_all.deb
+Size: 292496
+SHA256: 40f761e5844dc43fb4861b4eb36e54c4058f513f51fc29db4f850ba5fbc9f275
+SHA1: a3bcc96c9de5a6ce147dc2b86950fe79f62d8747
+MD5sum: 9e82eefc43aba9291172887ba2d77e22
 Description: FosOS Desktop session
- The FosOS panel, Start menu, desktop, Files, Terminal, Notepad, Store,
+ The FosOS panel, Start menu, desktop, Files, Terminal, Notepad, Photos, Videos, Store,
  Task Manager, Device Manager, Remote Desktop client, notifications, lock screen,
  LightDM greeter and settings shell, running on the Openbox window manager. It is the default
  login session. A minimal FosOS Recovery session and text consoles are the
@@ -77,18 +77,18 @@ Description: FosOS graphical installer
  Installs Debian-signed shim/GRUB so the target can boot with Secure Boot.
 
 Package: fosos-theme
-Version: 0.7.10
+Version: 0.7.11
 Architecture: all
 Depends: fonts-inter, fonts-liberation, dmz-cursor-theme, plymouth, plymouth-label, lxpolkit
 Recommends: plymouth-themes
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-theme/fosos-theme_0.7.10_all.deb
-Size: 176280
-SHA256: 853f928105f61f2a844487601250657d61e4eed782d104583817185c82ba2866
-SHA1: 19d90c98302628b9d69b499da845ee99a23ca0e9
-MD5sum: bb2ef2d4b4e025dd2b00c1c77a52ba01
+Filename: pool/main/f/fosos-theme/fosos-theme_0.7.11_all.deb
+Size: 176356
+SHA256: e0b9fef5201547e6b15a0229f972e732f9fd10d1d87abb9e5866665c42174fb7
+SHA1: 11dca86d92e99a7627943e38c01ca984bd25be19
+MD5sum: 328f6092868f87239fa2ff59785b985b
 Description: FosOS desktop branding and defaults
  Wallpaper, Dawn Aperture logo, quiet GRUB theme, graphical Plymouth
  splash (logo + spinner), session defaults, and touchpad tap-to-click.
