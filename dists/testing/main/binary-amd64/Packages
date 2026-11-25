@@ -36,18 +36,18 @@ Description: fos command and passwordless admin for sudo users
  installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.27
+Version: 1.13.28
 Architecture: all
 Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, xdg-user-dirs, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.27_all.deb
-Size: 230426
-SHA256: 992e3d082b9d9eb6099de33837c5d28a984b4be4bfb22886aabee6846c639158
-SHA1: a18dbba096b9376c664126d1a35dbcc62cd13275
-MD5sum: 96614733cdb5bacc422c7868f7df29d6
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.28_all.deb
+Size: 244078
+SHA256: 2c921a6c7aa24a8f7f2057de3e90ca62d8c89f4add1797af316488acecb67375
+SHA1: 8bddcf9d79344bd5cac90fac6491536f428ded79
+MD5sum: f7caa20ef278593b1c707d26f87be305
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad,
  Task Manager, Remote Desktop client, notifications, lock screen, LightDM greeter and
