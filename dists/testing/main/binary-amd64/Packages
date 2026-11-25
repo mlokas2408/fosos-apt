@@ -36,18 +36,18 @@ Description: fos command and passwordless admin for sudo users
  installed; login and lock screen still use the account password.
 
 Package: fosos-desktop
-Version: 1.13.30
+Version: 1.13.31
 Architecture: all
-Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, gir1.2-appstream-1.0, appstream, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, onedrive, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, python3-gst-1.0, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-gtk3, v4l-utils, pipewire-v4l2, cups, cups-client, cups-bsd, cups-filters, cups-browsed, ipp-usb, avahi-daemon, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, ufw, openssh-client, openssh-server, xdg-user-dirs, fosos-theme, fosos-cli
+Depends: python3, python3-gi, python3-gi-cairo, python3-pamela, gir1.2-gtk-3.0, gir1.2-wnck-3.0, gir1.2-vte-2.91, gir1.2-lightdm-1, gir1.2-appstream-1.0, appstream, lightdm, python3-xlib, openbox, xss-lock, xcape, brightnessctl, brightness-udev, xsettingsd, arandr, scrot, x11-xkb-utils, x11-xserver-utils, network-manager, network-manager-gnome, blueman, gvfs, gvfs-backends, gvfs-fuse, onedrive, wireplumber, pipewire-bin, sound-theme-freedesktop, firmware-sof-signed, firmware-intel-sound, alsa-ucm-conf, python3-gst-1.0, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-gtk3, v4l-utils, pipewire-v4l2, cups, cups-client, cups-bsd, cups-filters, cups-browsed, ipp-usb, avahi-daemon, locales, gnome-keyring, libpam-gnome-keyring, libsecret-1-0, fonts-inter, fonts-liberation, adwaita-icon-theme, pkexec, ufw, openssh-client, openssh-server, xdg-user-dirs, file, fosos-theme, fosos-cli
 Recommends: freerdp3-x11, xrdp, xorgxrdp, pinentry-gnome3
 Maintainer: FosOS <dev@fosos.local>
 Priority: optional
 Section: x11
-Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.30_all.deb
-Size: 292496
-SHA256: 40f761e5844dc43fb4861b4eb36e54c4058f513f51fc29db4f850ba5fbc9f275
-SHA1: a3bcc96c9de5a6ce147dc2b86950fe79f62d8747
-MD5sum: 9e82eefc43aba9291172887ba2d77e22
+Filename: pool/main/f/fosos-desktop/fosos-desktop_1.13.31_all.deb
+Size: 302724
+SHA256: b34e2da0cd605e82e8bbc37c843c0c0c1dd8c3f4351db241cce8a199337a419a
+SHA1: bff691177ae1f829607e779224980a48b440d459
+MD5sum: 9478bb74f457a13a0b563d3bf8de26b9
 Description: FosOS Desktop session
  The FosOS panel, Start menu, desktop, Files, Terminal, Notepad, Photos, Videos, Store,
  Task Manager, Device Manager, Remote Desktop client, notifications, lock screen,
